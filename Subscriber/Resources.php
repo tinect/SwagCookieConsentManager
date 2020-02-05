@@ -54,6 +54,7 @@ class Resources implements SubscriberInterface
         $collection = new ArrayCollection([
             $jsDir . 'jquery.cookie-consent-manager.js',
             $jsDir . 'jquery.cookie-permission.js',
+            $jsDir . 'refresh-statistics.js',
         ]);
 
         return $collection;
